@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.logo, .menubar, .login{
+    margin: 25px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.navitems{
+    background-color: blueviolet;
+    font-size: larger;
+    border: 2px solid pink;
+    display: flex;
+    list-style: none;
+}
+.navitem1,.navitem2,.navitem3,.navitem4{
+    margin: 15px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.maincontent{
+    display: flex;
+    border: 2px solid red;
+    background-color: aquamarine;
+    height: 600px;
+    justify-content: space-around;
+}
+.news,.about,.loginpage{
+    border: 2px solid yellow;
+}
