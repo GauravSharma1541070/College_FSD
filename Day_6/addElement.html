@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="addElement()">Add Header</button>
+    <input type="text" id="input">
+    <script>
+        addElement = () => {
+            const value1 = document.querySelector('input').value
+            const h1 = document.createElement('p');
+            let body = document.querySelector('body');
+            body.appendChild(h1)
+            h1.textContent = value1
+        }
+    </script>
+</body>
+</html>
